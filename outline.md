@@ -2,6 +2,12 @@
   > In this beginner-level session, David Cobb will start from first login to AWS Cloud Shell, AWS PowerShell modules, command syntax, common features and shortcuts, and how PowerShell increases your understanding and ability to build confidently in the cloud.
 * Intro
 * Background
+* Big Picture
+  * Cloud Providers
+  * APIS
+    * Ex [S3](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations.html), [VPC](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-vpc.html), [EC2](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-ec2.html)
+  * [SDKs & Tools](https://aws.amazon.com/getting-started/tools-sdks/)
+    * [PowerShell](https://aws.amazon.com/powershell/) is one of these tools for working with AWS, and our focus today
 * Terminology
   * PowerShell, the shell (run pwsh)
     * Compare to bash
