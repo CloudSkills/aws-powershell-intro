@@ -1,3 +1,5 @@
+* [AWS Glossary](https://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
+
 * [AWS Tools for PowerShell](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-welcome.html)
   * 3 Packages
     * AWS.Tools
