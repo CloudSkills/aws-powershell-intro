@@ -33,6 +33,8 @@
 * Looking at objects
   * Types are from SDK for .Net
 
+* Learning scripts
+  * Here's how I learn, take this idea and learn the parts that are useful to you!
 * Demo Ideas
   * S3
   * EC2
@@ -40,6 +42,8 @@
   * Deploy Lambda function, see https://github.com/awsdocs/aws-lambda-developer-guide/tree/main/sample-apps/blank-powershell
   * AwsPsPrompt see https://github.com/aws-samples/eks-powershell-shortcuts/blob/main/src/AwsPsPrompt.ps1
 
+* Mix with AWSCLI
+  * Dealing with JSON
 
 ```ps
 
