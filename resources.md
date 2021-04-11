@@ -10,3 +10,5 @@
 * [AWS Samples for PowerShell on GitHub](https://github.com/aws-samples?q=&type=&language=powershell&sort=)
 * [AWS SDK for .NET Version 3 API Reference](https://docs.aws.amazon.com/sdkfornet/v3/apidocs/)
 * [Cloudopian AWS PowerShell tutorial](https://cloudopian.com/blog/aws-powershell-tutorial/)
+
+* PowerShell Learning Resources
