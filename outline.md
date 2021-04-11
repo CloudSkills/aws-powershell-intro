@@ -1,6 +1,7 @@
 * Abstract
   > In this beginner-level session, David Cobb will start from first login to AWS Cloud Shell, AWS PowerShell modules, command syntax, common features and shortcuts, and how PowerShell increases your understanding and ability to build confidently in the cloud.
 * Intro
+ * Slide, or PAGE
 * Background
 * Big Picture
   * Cloud Providers
