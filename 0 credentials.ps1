@@ -10,6 +10,7 @@ Get-Command *AWSCredential
 
 # See existing credentials. note difference between NetSDKCredentialsFile and SharedCredentialsFile for security
 # described here: https://docs.aws.amazon.com/powershell/latest/userguide/specifying-your-aws-credentials.html#credential-handling-in-aws-tools-for-powershell-core
+# more reference here: https://docs.aws.amazon.com/credref/latest/refdocs/overview.html
 Get-AWSCredential -ListProfileDetail
 
 # Add a new credential
@@ -22,3 +23,6 @@ Set-AWSCredential -StoreAs $myProfileName -AccessKey $myAccessKey -SecretKey (Co
 
 # To make subsequent commands easier, recommended to set a default profile with default region
 Initialize-AWSDefaultConfiguration -ProfileName $myProfileName -Region us-east-2
+
+# See Identity
+Get-STSCallerIdentity -Verbose

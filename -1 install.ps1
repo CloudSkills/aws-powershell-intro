@@ -31,3 +31,6 @@ Import-Module AWSPowerShell.NetCore -Verbose #-Verbose param shows each step, in
 
 # See modules loaded into session
 Get-Module AWS* | Select *
+
+# See Version
+Get-AWSPowerShellVersion
