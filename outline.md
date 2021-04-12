@@ -1,6 +1,9 @@
 * Abstract
-  > In this beginner-level session, David Cobb will start from first login to AWS Cloud Shell, AWS PowerShell modules, command syntax, common features and shortcuts, and how PowerShell increases your understanding and ability to build confidently in the cloud.
+  > We'll begin from first login to AWS Cloud Shell, discovering the pwsh shell, AWS PowerShell modules, command syntax, common command features and shortcuts, and how PowerShell increases your understanding and ability to build confidently in the cloud.
 * Intro
+* Goal
+  * Equip you to get started with PowerShell in AWS, over the beginners's hump
+  * Inspire you to build an 'exploration script' to learn and solve a small problem in your AWS environment.
 * Background
   * Warning: Geek Speak Ahead!
   * Talk uses PowerShell, will link to resources how to learn more about it
@@ -18,6 +21,7 @@
   * Requirements
     * PowerShell (Latest 7 version recommended, works with Windows PowerShell 5.1 + .Net Framework 4.7.2)
       * Cross platform, supports Windows, Mac or Linux
+    * Recommend Visual Studio Code for exploration and scripting  
   * Installing ([docs](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-getting-set-up-windows.html))
     * 3 Flavors
       * AWS.Tools - The modularized version of AWS Tools for PowerShell. Each AWS service is supported by its own individual, small module, with shared support modules AWS.Tools.Common and AWS.Tools.Installer.
@@ -25,6 +29,7 @@
         * My recommended approach for most scenarios, can add a few seconds of spinup time though..
       * AWSPowerShell - The legacy Windows-specific, single, large-module version of AWS Tools for PowerShell. All AWS services are supported by this single, large module.
         * REQUIRES .NET Framework 4.7.2 or newer is required.
+
 
 * Connecting to AWS using your Credentials
   * *-AWSCredential
@@ -40,8 +45,8 @@
 
 * Cautions
   * Each service has different levels of support for PowerShell features
-  * Some have no built in help, some do
-  * Some return JSON instead of PowerShell objects
+    * Some have no built in help, some do
+    * Some return JSON instead of PowerShell objects
   
 * Demo Ideas
   * S3

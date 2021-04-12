@@ -8,3 +8,4 @@
 * [AWS SDK for .NET Version 3 API Reference](https://docs.aws.amazon.com/sdkfornet/v3/apidocs/)
 * [Cloudopian AWS PowerShell tutorial](https://cloudopian.com/blog/aws-powershell-tutorial/)
 * [Working with AWS and Powershell](https://www.smartfile.com/blog/working-aws-powershell/)
+* [AwsPsPrompt - Shows AWS region and profile in prompt](https://github.com/aws-samples/eks-powershell-shortcuts/blob/710c7929aecc23d2f638394f7ce63ec02ff123e8/src/AwsPsPrompt.ps1)
