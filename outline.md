@@ -2,7 +2,8 @@
   > We'll begin from first login to AWS Cloud Shell, discovering the pwsh shell, AWS PowerShell modules, command syntax, common command features and shortcuts, and how PowerShell increases your understanding and ability to build confidently in the cloud.
 * Intro
 * Goal
-  * Equip you to get started with PowerShell in AWS, over the beginners's hump
+  * Equip you to get started with PowerShell in AWS, and make it through the beginners's valley of discouragement.
+  * Share my exploration scripts for reference and inspiration.
   * Inspire you to build an 'exploration script' to learn and solve a small problem in your AWS environment.
 * Background
   * Warning: Geek Speak Ahead!
@@ -55,6 +56,7 @@
 
 * Cautions
   * Each service has different levels of support for PowerShell features
+    * Separate, independent teams within AWS maintain these services & their tools
     * Some have no built in help, some do
     * Some return JSON instead of PowerShell objects
   
