@@ -9,6 +9,15 @@
   * Talk uses PowerShell, will link to resources how to learn more about it
   * Talk uses AWS, requires some basic AWS knowledge to keep up
     * If you've used AWS console or SDKs you'll recognize the building blocks
+
+ * Slide, or PAGE
+* Background
+* Big Picture
+  * Cloud Providers
+  * APIS
+    * Ex [S3](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations.html), [VPC](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-vpc.html), [EC2](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/OperationList-query-ec2.html)
+  * [SDKs & Tools](https://aws.amazon.com/getting-started/tools-sdks/)
+    * [PowerShell](https://aws.amazon.com/powershell/) is one of these tools for working with AWS, and our focus today
 * Terminology
   * PowerShell, the shell (run pwsh)
     * Compare to bash
@@ -43,11 +52,16 @@
 * Looking at objects
   * Types are from SDK for .Net
 
+
 * Cautions
   * Each service has different levels of support for PowerShell features
     * Some have no built in help, some do
     * Some return JSON instead of PowerShell objects
   
+
+* Learning scripts
+  * Here's how I learn, take this idea and learn the parts that are useful to you!
+
 * Demo Ideas
   * S3
   * EC2
@@ -55,8 +69,12 @@
   * Deploy Lambda function, see https://github.com/awsdocs/aws-lambda-developer-guide/tree/main/sample-apps/blank-powershell
   * AwsPsPrompt see https://github.com/aws-samples/eks-powershell-shortcuts/blob/main/src/AwsPsPrompt.ps1
 
+
 * Future Projects
  * AWS PowerShell STS tutorial
+* Mix with AWSCLI
+  * Dealing with JSON
+
 ```ps
 
       Install-Module -name AWSPowerShell.NetCore
