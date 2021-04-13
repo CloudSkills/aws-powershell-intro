@@ -10,7 +10,7 @@ Get-S3Bucket
 Get-Help New-S3Bucket -Examples
 Get-Help New-S3Bucket -Online
 
-# Create a S3 bucket with public read
+# Create a S3 bucket 
 New-S3Bucket
 # Create a text file
 Set-Content -Path $env:TEMP\testfile.txt -Value "Hello from PowerShell!"
@@ -24,13 +24,18 @@ Get-Help Write-S3Object -Examples
 Get-Help Write-S3Object -Online
 
 # write text file to S3
-Write-S3Object -BucketName davepublicread -Key testfile.txt -File $env:TEMP\testfile.txt
+Write-S3Object -BucketName dave2021 -Key testfile.txt -File $env:TEMP\testfile.txt
 
-Get-S3Object -BucketName davepublicread -Key testfile.txt -Verbose | Select * 
+Get-S3Object -BucketName dave2021 -Key testfile.txt -Verbose | Select * 
 
-Get-S3ObjectMetadata -BucketName davepublicread -Key testfile.txt -Verbose | 
+Get-S3ObjectMetadata -BucketName dave2021 -Key testfile.txt -Verbose | 
   Select -ExpandProperty Metadata |
     Select *
 
-Read-S3Object -BucketName davepublicread -Key testfile.txt -File $env:TEMP\testfileresult.txt
-Get-Content -Path $env:TEMP\testfileresult.txt 
+    Read-S3Object -BucketName dave2021 -Key testfile.txt -File $env:TEMP\testfileresult.txt
+    Get-Content -Path $env:TEMP\testfileresult.txt 
+
+# Cleanup
+Remove-S3Object -BucketName dave2021 -Key testfile.txt 
+Remove-Item $env:TEMP\testfile.txt
+Remove-Item $env:TEMP\testfileresult.txt

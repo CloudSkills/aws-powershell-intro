@@ -1,6 +1,6 @@
 tags demo
 filters demo
-json demo
+done-json demo
 
 move incomplete to ./in-progress
 

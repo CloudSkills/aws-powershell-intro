@@ -1,4 +1,3 @@
-# refer https://docs.aws.amazon.com/powershell/latest/reference/items/Common_cmdlets.html
 
 
 # Commands that work with AWS Regions

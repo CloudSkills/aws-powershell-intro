@@ -1,5 +1,5 @@
 ### AWS Cloud Shell
-* https://docs.aws.amazon.com/cloudshell/latest/userguide/welcome.html
+* [User Guide](https://docs.aws.amazon.com/cloudshell/latest/userguide/welcome.html)
 
 ___
 
@@ -9,7 +9,7 @@ ___
 
 ___
 
-### Learning PowerShell
+### <a name="learningpowershell"></a> Learning PowerShell
 
 - [PowerShell in a month of lunches book](https://www.manning.com/books/learn-windows-powershell-in-a-month-of-lunches-third-edition)
 - [Microsoft Learn site](https://docs.microsoft.com/en-us/powershell/scripting/learn/understanding-important-powershell-concepts?view=powershell-7)
@@ -42,4 +42,4 @@ ___
 
 #### Cool AWS Prompt!
 
-* [AwsPsPrompt - Shows AWS region and profile in prompt](https://github.com/aws-samples/eks-powershell-shortcuts/blob/710c7929aecc23d2f638394f7ce63ec02ff123e8/src/AwsPsPrompt.ps1)
+* [AwsPsPrompt - Imports AWS PowerShell module & shows AWS region and profile in prompt](https://github.com/aws-samples/eks-powershell-shortcuts/blob/main/src/AwsPsPrompt.ps1)

@@ -2,7 +2,7 @@
 # Use Get-Command for finding verbs & nouns for a group of related commands
 
 Get-Command *-S3*
-Get-Command *-S3* | Select-Object * | Out-GridView
+Get-Command *-S3* | Select-Object * | Out-GridView # SLOW
 
 
 # Group on Noun, Sort Most Common First

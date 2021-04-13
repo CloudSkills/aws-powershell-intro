@@ -12,6 +12,8 @@ Get-EC2KeyPair
 Get-EC2Instance
 
 # need to drill down into the Instance property
+# Note using pipes to continue a single command on multiple lines
+# Easier to read and maintain
 Get-EC2Instance | 
   Select-Object -ExpandProperty Instances |
     Select-Object *
