@@ -25,6 +25,15 @@ ___
 > AWS is big, PowerShell is big, the tools around them are big. Just take it in a step at a time, ask for help from your community, and use the resources shared below to learn at your own pace.
 ___
 
+## Context
+
+- All work done in AWS uses the API
+- [SDKs and tools](https://aws.amazon.com/getting-started/tools-sdks/) make this easier
+- [AWS PowerShell Tools](https://aws.amazon.com/powershell/) is what we are exploring
+
+___
+
+
 ## Where to Begin?
 
 ### 1. [Get a AWS Free Tier Account](https://aws.amazon.com/free/)
@@ -34,6 +43,8 @@ ___
 
 
 ### 3. Run the [AWS Cloud Shell](https://docs.aws.amazon.com/cloudshell/latest/userguide/welcome.html)
+
+### 4. EXPLORE
 
 ___
 
