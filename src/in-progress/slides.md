@@ -31,6 +31,7 @@ ___ -->
 ### Cloud consultant, instructor, learner
 ### Focus on Azure but supporting AWS as well
 ### [davidcobb.net](https://www.davidcobb.net)
+### [@dave000777](https://twitter.com/dave000777)
 ___
 
 # Goals for this talk
@@ -39,6 +40,30 @@ ___
   ## Inspire you to build an 'exploration script' to learn and solve a small problem in your AWS environment.
 ___
 
+# Geek Alert!
+
+## Working with AWS PowerShell involves working with multiple technologies & tools. 
+
+## AWS, API, Terminal, shell, PowerShell, AWS PowerShell Module, Visual Studio Code, git.
+
+## In the short time we have I'll introduce these, and help equip you to learn on your own.
+___
+
+# THE API
+
+* Every action in AWS is done through the API
+
+* To understand AWS we need to learn the API
+
+* Console, SDKs, Tools including PowerShell Modules call this API
+
+* They make AWS easier to learn and work in
+___
+
+* To use the AWS Console we need to have an AWS account, and a user with access to that account
+
+* To use the API from PowerShell, tools or SDKs, we need a sign-in credential for that user, which requires an access key & secret
+___
 # Thank You!
 
 ## Q & A

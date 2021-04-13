@@ -1,17 +1,21 @@
+# Refer to docs: https://docs.aws.amazon.com/powershell/latest/userguide/pstools-welcome.html
+
 # AWS related modules, includes those from sources other than AWS
 Find-Module AWS*
 
 # See module author
 Find-Module AWS* | Select-Object Author,CompanyName, Name,Version, PublishedDate, Description | Out-GridView
 
-# Modularized AWS modules for each service
-Find-Module AWS.Tools* | Select * | Out-GridView
-
-# Single large module supports all services, suitable for PowerShell 7+ (formerly DotNet Core)
+# Three distinct packages you can use
+# 1 Single large module supports all services, suitable for PowerShell 7+ (formerly DotNet Core)
 Find-Module AWSPowerShell.NetCore
 
-# Single large module supports all services, suitable for PowerShell 5.1  (aka Windows PowerShell)
+# 2 Modularized AWS modules for each service
+Find-Module AWS.Tools* 
+
+# 3 Single large module supports all services, suitable for PowerShell 5.1  (aka Windows PowerShell)
 Find-Module AWSPowerShell
+
 
 
 
@@ -27,10 +31,12 @@ Uninstall-Module -MaximumVersion 4.1.5.0 -Name AWSPowerShell.NetCore
 # But not AWSPowerShell.NetCore, it's too large.
 # You must first run the Import-Module AWSPowerShell.NetCore
 
-Import-Module AWSPowerShell.NetCore -Verbose #-Verbose param shows each step, interesting 
+Import-Module AWSPowerShell.NetCore -Verbose #-Verbose param shows each step, interesting but slow!
 
 # See modules loaded into session
 Get-Module AWS* | Select *
 
 # See Version
 Get-AWSPowerShellVersion
+
+#

@@ -2,7 +2,7 @@ tags demo
 filters demo
 json demo
 
-move incomplete to ./future
+move incomplete to ./in-progress
 
 diagram browser/container/shell/pwsh/module/api/resources
 

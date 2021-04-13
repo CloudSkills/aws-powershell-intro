@@ -24,5 +24,5 @@ Set-AWSCredential -StoreAs $myProfileName -AccessKey $myAccessKey -SecretKey (Co
 # To make subsequent commands easier, recommended to set a default profile with default region
 Initialize-AWSDefaultConfiguration -ProfileName $myProfileName -Region us-east-2
 
-# See Identity
+# See Identity ,and test your AWS access
 Get-STSCallerIdentity -Verbose
