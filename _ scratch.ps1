@@ -11,7 +11,7 @@ $AWSHistory.Commands
 
 
 
-# Snipped that shows how to page thru API results
+# Snippet that shows how to page thru API results
 $nextMarker = $null
 Do
 {
