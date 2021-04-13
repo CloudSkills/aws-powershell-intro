@@ -28,8 +28,8 @@ ___ -->
 
 ## David Cobb
 ![bg right](https://www.davidcobb.net/wp-content/uploads/2021/04/David_2020-02_SW.jpg)
-### cloud consultant, instructor, learner
-### focus on Azure but supporting AWS as well
+### Cloud consultant, instructor, learner
+### Focus on Azure but supporting AWS as well
 ### [davidcobb.net](https://www.davidcobb.net)
 ___
 

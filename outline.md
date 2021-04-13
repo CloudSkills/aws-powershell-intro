@@ -59,6 +59,7 @@
     * Separate, independent teams within AWS maintain these services & their tools
     * Some have no built in help, some do
     * Some return JSON instead of PowerShell objects
+    * Some have no examples, could post an [issue on GitHub](https://github.com/aws/aws-tools-for-powershell/issues)
   
 
 * Learning scripts
